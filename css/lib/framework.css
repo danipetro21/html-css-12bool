@@ -26,6 +26,15 @@
     flex-wrap: wrap;
 }
 
+[class*="col-"] {
+    flex: 0 0 auto;
+}
+
+.col {
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
+}
 
 .col-1 {
     flex-basis: calc((100% / 12) * 1);
@@ -125,4 +134,12 @@
 
 .space-between{
     justify-content: space-between;
+}
+
+.padding {
+    padding: 10px;
+}
+
+.margin-bottom{
+    margin-bottom: 50px;
 }

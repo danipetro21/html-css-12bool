@@ -1,0 +1,20 @@
+[class*="col"] {
+    border: 1px rgb(255, 255, 255) solid;
+    background-color: blueviolet;
+    min-height: 50px;
+    text-align: center;
+    line-height: 50px;
+    
+}
+
+.green {
+    background-color: rgb(13, 214, 13);
+}
+
+label{
+    color: white;
+    font-size: 18px;
+}
+
+
+
